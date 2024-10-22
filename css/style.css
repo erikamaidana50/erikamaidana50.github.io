@@ -1,10 +1,12 @@
- div.inicio h1 {
+ h1 {
     text-align: center;
     font-size: 50px;
     margin-top: -4%;
     color: rgb(109, 109, 109);
 
-
+body {
+    background-color: black;
+}
     
 }
 div.inicio h2{
@@ -28,14 +30,14 @@ div.inicio {
     padding: 20%;
 }
 body {
-    background-color: rgb(230, 227, 227);
+    background-color: rgb(8, 8, 8);
    
     border-radius: 2%;
     
 }
 
 
-img.fondo {
+#fondo {
 width: 100px;
 border-color: white;
 border-radius: 2%;
@@ -157,7 +159,7 @@ div.insta a {
     text-align: center;
 }
 
-div.face {
+.img-fluid {
     background-color: aliceblue;
     margin-left: 30%;
     margin-right: 50%;
@@ -199,4 +201,9 @@ ul>a {
 
 
 
-   
+   .card-body {
+    text-align: justify;
+   }
+.card {
+    width: 10px;
+}
